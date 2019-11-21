@@ -3,12 +3,13 @@
 Human Computer Interaction Project 2
 
 ![Team members](p2.group10.png)
-Team members:
+## Team members: ##
 
 Charlotte Phillips - Team Leader (Game Interface)
   Charlotte is the Team Leader for this project, and will be in charge of the project's progression and checking in with the team members. Charlotte is also in charge of designing the main interface for the game.
 
 Josephine Willgrubs - Programmer (Webcam/Object Detection)
+  Josephine is one of the back-end programmers for this project. She is in charge of training the object detection classifier for the game.
 
 Chloe Osgood - Programmer
 
@@ -18,12 +19,37 @@ Donald Soundy - Programmer
 
 <br>
 
-Objective:
+### Game interface ###
+* Create buttons to control the main Rock, Paper, Scissors interface
+* Observe the golden rules and principles while creating the interface
+
+### Object detection through webcam ###
+* Training object detection classifier using TensorFlow
+* Collection of photos for object detection classifier
+
+### Title and tutorial screen ###
+* Create the title screen for the Rock, Paper, Scissors game
+* Write the game tutorial
+* Program game tutorial open and close
+
+### Integration ###
+* Incorporate object detection into the game interface
+* Monitor the user and implementation of the golden rules and design principles
+
+### Game rules ###
+* Create rules for the tiers
+* Create rules for the computer player’s random output
+* Create rules for game powerups
+
+
+<br>
+
+## Objective: ##
 The Rock Paper Scissors game will be a simple game that involves using the player's webcam to play rounds of Rock Paper Scissors with a computer opponent. The game consists of multiple rounds, in which the winner will move up in a "tier" if they win and the loser will move down. The first player to reach the 0 tier loses the game, and the first player to reach the 8 tier wins the game. The players may also utilize powerups to help them in a round.
 
 <br>
 
-Sketch:
+## Sketch: ##
 
 ![sketch](Project2_Sketches/HICProject2_phase0.png)
 
