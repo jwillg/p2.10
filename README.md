@@ -69,4 +69,10 @@ In this scenario, the player has used a powerup to help them in the round.
 Because the player used a powerup in the previous round, they have moved up in tiers and are close to winning.
 
 
+## Implementation: ##
+* Created intial sketches
+* Assigned roles and duties to team members
+* Conducted research on object detection
 
+## Plan to move forward: ##
+Charlotte will conduct periodic check-ins to verify progress on individual assignments.
