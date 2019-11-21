@@ -15,7 +15,8 @@ Chloe Osgood - Programmer
 
 Aishwarya Anand - Programmer
 
-Donald Soundy - Programmer
+Donald Soundy - Programmer (Title Screen + Tutorial)
+  Donald is going to be a front-end programmer for this project. He will be creating the title screen, and a game tutorial. The game tutorial will be describing the basic rules of rock paper scissors, and how to interact with the game with images and written documentation.
 
 <br>
 
