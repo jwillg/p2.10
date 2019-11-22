@@ -11,7 +11,8 @@ Charlotte Phillips - Team Leader (Game Interface)
 Josephine Willgrubs - Programmer (Webcam/Object Detection)
   Josephine is one of the back-end programmers for this project. She is in charge of training the object detection classifier for the game.
 
-Chloe Osgood - Programmer
+Chloe Osgood - Programmer (Game Rules)
+  Chloe is one of the back-end programmers for this projet. Whe wi reponsible fir wrtinig how ht game will interwith thr friends.
 
 Aishwarya Anand - Programmer
 
