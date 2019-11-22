@@ -14,7 +14,7 @@ Josephine Willgrubs - Programmer (Webcam/Object Detection)
 Chloe Osgood - Programmer (Game Rules)
   Chloe is one of the back-end programmers for this projet. Whe wi reponsible fir wrtinig how ht game will interwith thr friends.
 
-Aishwarya Anand - Programmer
+Aishwarya Anand - Programmer (Integration) Aishwarya is going to be working on the code that will help in linking objecy  detection to game interface and simultaneously also held responsible for designing and making sure that the projject design follows all the golden rules and other important design and good interface principles discusssed in class.
 
 Donald Soundy - Programmer (Title Screen + Tutorial)
   Donald is going to be a front-end programmer for this project. He will be creating the title screen, and a game tutorial. The game tutorial will be describing the basic rules of rock paper scissors, and how to interact with the game with images and written documentation.
