@@ -77,3 +77,22 @@ Because the player used a powerup in the previous round, they have moved up in t
 
 ## Plan to move forward: ##
 Charlotte will conduct periodic check-ins to verify progress on individual assignments.
+
+<br>
+
+## User Study: ##
+
+### [Demo Link](https://jwillg.github.io/p2.10/tut1.html) ###
+
+
+### Task Description ##
+
+1. Read the current tutorial page
+2. Select the arrow to move to the next tutorial page
+3. Repeat steps one and two until the tutorial is completed
+
+### Hypothesis ###
+
+* The user will take under 2 seconds to find the arrow to move to the next page of the tutorial
+* The user will complete the tutorial in under 30 seconds
+* The user will have 2 or less questions about the gameplay after reading the tutorial
