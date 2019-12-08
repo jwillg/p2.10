@@ -1,5 +1,6 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Consolas, Arial;
+	background-color: #ffe6e6;
 }
 
 div {
@@ -8,6 +9,18 @@ div {
 
 button {
 	margin-left: 600px;
+	float: left;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.compImg {
+  width: 300px;
+  height: 200px;
 }
 
 .player {
@@ -18,16 +31,49 @@ button {
   margin-left: 150px;
 }
 
+.RoundText {
+   width: 100px;
+   height: 100px;
+   margin-left: 110px;
+   margin-top: 60px;
+}
+
 .comp {
   width: 300px;
   height: 200px;
   padding: 10px;
   border: 5px solid black;
-  margin-left: 350px;
+  margin-left: 395px;
+}
+
+.compWindow {
+  margin-left: 395px;
+  margin-top: -329px;
+}
+
+.playwindow {
+  margin-left: 20px;
+}
+
+.buttons {
+  margin-left: -375px;
+  float: left;
+}
+
+.powerups {
+  margin-left: -425px;
+}
+
+.movedown {
+  margin-left: 0px;
+}
+
+.stop {
+  margin-left: 0px;
 }
 
 .Ctitle {
-  margin-left: 350px;
+  margin-left: 395px;
 }
 
 .Ptitle {
@@ -35,7 +81,7 @@ button {
 }
 
 .Ctier {
-  margin-left: 350px;
+  margin-left: 395px;
 }
 
 .Ptier {

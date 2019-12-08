@@ -14,7 +14,7 @@ Josephine Willgrubs - Programmer (Webcam/Object Detection)
 Chloe Osgood - Programmer (Game Rules)
   Chloe is one of the back-end programmers for this projet. Whe wi reponsible fir wrtinig how ht game will interwith thr friends.
 
-Aishwarya Anand - Programmer
+Aishwarya Anand - Programmer (Integration) Aishwarya is going to be working on the code that will help in linking objecy  detection to game interface and simultaneously also held responsible for designing and making sure that the projject design follows all the golden rules and other important design and good interface principles discusssed in class.
 
 Donald Soundy - Programmer (Title Screen + Tutorial)
   Donald is going to be a front-end programmer for this project. He will be creating the title screen, and a game tutorial. The game tutorial will be describing the basic rules of rock paper scissors, and how to interact with the game with images and written documentation.
@@ -96,3 +96,15 @@ Charlotte will conduct periodic check-ins to verify progress on individual assig
 * The user will take under 2 seconds to find the arrow to move to the next page of the tutorial
 * The user will complete the tutorial in under 30 seconds
 * The user will have 2 or less questions about the gameplay after reading the tutorial
+
+## Rock Paper Scissors Object detection with Tensorflow.js ##
+
+### The Source ###
+The object detection dataset was adapted from Gant Laborde's rock paper scissor's demo located here:
+[Github Link](https://github.com/GantMan/rps_tfjs_demo).
+
+### The Data ###
+The dataset contained pictures of hands throwing rock, paper, and scissors. 143 were classified as rock, 143 were classified as paper, 126 were classified as scissors. The hands were on a blank white background, so the detection works best in front of a light background.
+
+### How to Use ###
+This project uses node.js. In order to run the rock paper scissor's object dectection section of the project, start npm from the rps_demo folder.

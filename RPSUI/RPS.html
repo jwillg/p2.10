@@ -5,26 +5,38 @@
 	<link rel="stylesheet" href="RPSstyle.css">
 </head>
 <body>
-	<h1><center>Rock Paper Scissors</center></h1>
-	
-	<div>
-	<h3 class="Ptitle">Player</h3>	
+	<h1><center>Rock Paper Scissors</center></h1>	
+
+	<div class="playwindow">
+	<h3 class="Ptitle">Player</h3>
 	<div class="player">
 		Player webcam goes here
 	</div><br>
 	<h4 class="Ptier">Tier 4</h4>
 	</div>
 
-	<div>
+	<div class="RoundText">
+	Text goes here
+	</div>
+
+	<div class="compWindow">
 	<h3 class="Ctitle">Computer</h3>
 	<div class="comp">
-		Computer window here
+		<img src="smiley.png" class="compImg">
 	</div><br>
 	<h4 class="Ctier">Tier 4</h4><br>
 	</div><br>
 
-	<button>New Game</button><br><br>
-	<button>Start Round</button><br><br>
-	<button>Take Photo</button>
+	<div class="powerups">
+	<button id="moveup" onclick="moveUp()"><img src="moveup.png"></button>
+	<button id="movedown" onclick="moveUp()" class="movedown"><img src="movedown.png"></button>
+	<button id="stop" onclick="stop()" class="stop"><img src="stop.png"></button>
+	</div>
+
+	<div class="buttons">
+	<button id="newgame" onclick="newGame()">New Game</button><br><br>
+	<button id="startround" onclick="startRound()">Start Round</button><br><br>
+	<button id="takephoto" onclick="takePhoto()">Take Photo</button>
+	</div>
 </body>
 </html>
