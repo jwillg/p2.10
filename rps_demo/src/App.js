@@ -82,13 +82,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h2>Rock Paper Scissors</h2>
-          <h3>Machine Learning in the browser with TFJS</h3>
 
-        </header>
+
         <div className="Main">
-
 
 
           <button
@@ -101,17 +97,16 @@ class App extends Component {
             }}
           >
             {this.state.advancedDemo
-              ? 'Turn Off Advanced Demo'
-              : 'Show Advanced Demo'}
+              ? 'Turn Off Webcam'
+              : 'Show Webcam'}
           </button>
           {this._renderAdvancedModel()}
 
-
-
-
         </div>
 
+
       </div>
+
     )
   }
 }

@@ -19,8 +19,8 @@ img {
 }
 
 .compImg {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 
 .player {
@@ -39,16 +39,16 @@ img {
 }
 
 .comp {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   padding: 10px;
   border: 5px solid black;
-  margin-left: 395px;
+  margin-left: 500px;
 }
 
 .compWindow {
-  margin-left: 395px;
-  margin-top: -329px;
+  margin-left: 500px;
+  margin-top: -570px;
 }
 
 .playwindow {
@@ -56,7 +56,7 @@ img {
 }
 
 .buttons {
-  margin-left: -375px;
+  margin-left: -215px;
   float: left;
 }
 
@@ -73,7 +73,7 @@ img {
 }
 
 .Ctitle {
-  margin-left: 395px;
+  margin-left: 500px;
 }
 
 .Ptitle {
@@ -81,7 +81,7 @@ img {
 }
 
 .Ctier {
-  margin-left: 395px;
+  margin-left: 500px;
 }
 
 .Ptier {

@@ -114,7 +114,7 @@ export default class AdvancedModel extends React.Component {
     return (
       <div className="advancedContainer">
         {this.state.loading && (
-          <p id="advancedLoadText">Please wait, loading advanced model</p>
+          <p id="advancedLoadText">Please wait, loading model</p>
         )}
         <video
           className="advancedCam"
