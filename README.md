@@ -12,7 +12,7 @@ Josephine Willgrubs - Programmer (Webcam/Object Detection)
   Josephine is one of the back-end programmers for this project. She is in charge of training the object detection classifier for the game.
 
 Chloe Osgood - Programmer (Game Rules)
-  Chloe is one of the back-end programmers for this projet. Whe wi reponsible fir wrtinig how ht game will interwith thr friends.
+  Chloe is one of the back-end programmers for this projet. She will be responsible for how the game will play. She will be in charge of the game deciding who will win the round and how they will move up and down tiers. 
 
 Aishwarya Anand - Programmer (Integration) Aishwarya is going to be working on the code that will help in linking objecy  detection to game interface and simultaneously also held responsible for designing and making sure that the projject design follows all the golden rules and other important design and good interface principles discusssed in class.
 
