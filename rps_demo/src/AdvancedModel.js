@@ -5,6 +5,7 @@ import * as tf from '@tensorflow/tfjs'
 const ADV_RPS_MODEL_URL = process.env.PUBLIC_URL + '/adv_rps/';
 const ADV_LABELS_URL = ADV_RPS_MODEL_URL + 'labels.json';
 const ADV_MODEL_JSON = ADV_RPS_MODEL_URL + 'model.json';
+var LABELS;
 
 export default class AdvancedModel extends React.Component {
   videoRef = React.createRef();
@@ -74,6 +75,9 @@ export default class AdvancedModel extends React.Component {
   };
 
   renderPredictions = (predictions, labels) => {
+    function giveLabel() {
+      return LABELS;
+    }
     if (this.canvasRef.current) {
       const ctx = this.canvasRef.current.getContext('2d');
       ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
@@ -106,6 +110,8 @@ export default class AdvancedModel extends React.Component {
         ctx.fillStyle = '#000000';
         ctx.fillText(label, x, y);
         console.log(label); //INTEGRATION
+        LABELS = label;
+        giveLabel();
       })
     }
   };
@@ -134,4 +140,5 @@ export default class AdvancedModel extends React.Component {
       </div>
     )
   }
+
 }

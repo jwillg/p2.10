@@ -18,6 +18,7 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="RPSstyle.css">
+    <script src="rules.js"></script>
 
     <title>Rock Paper Scissors - TFJS</title>
   </head>
@@ -31,23 +32,25 @@
 
     <h1>Rock Paper Scissors</h1>
 
-    <div class="RoundText">
+    <div class="RoundText" id="RoundText">
       Text goes here
     </div>
+
+    <h4 id = "PTier" class="Ptier">Tier 4</h4>
 
     <div class="compWindow">
       <h3 class="Ctitle">Computer</h3>
       <div class="comp">
-        <img src="smiley.png" class="compImg">
+        <img id = "compDisplay" src="smiley.png" class="compImg">
       </div><br>
-      <h4 class="Ctier">Tier 4</h4><br>
+      <h4 id = "CTier" class="Ctier">Tier 4</h4><br>
     </div><br>
 
-    <div class="powerups">
-      <button id="moveup" onclick="moveUp()"><img src="moveup.png"></button>
-      <button id="movedown" onclick="moveUp()" class="movedown"><img src="movedown.png"></button>
-      <button id="stop" onclick="stop()" class="stop"><img src="stop.png"></button>
-    </div>
+<!--    <div class="powerups">-->
+<!--      <button id="moveup" onclick="moveUp()"><img src="moveup.png"></button>-->
+<!--      <button id="movedown" onclick="moveDown()" class="movedown"><img src="movedown.png"></button>-->
+<!--      <button id="stop" onclick="halt()" class="stop"><img src="stop.png"></button>-->
+<!--    </div>-->
 
     <div class="buttons">
       <button id="newgame" onclick="newGame()">New Game</button><br><br>

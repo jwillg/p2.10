@@ -56,7 +56,7 @@ img {
 }
 
 .buttons {
-  margin-left: -215px;
+  margin-left: 170px;
   float: left;
 }
 
@@ -81,9 +81,11 @@ img {
 }
 
 .Ctier {
-  margin-left: 500px;
+  margin-top: 433px;
+  margin-left: 400px;
 }
 
 .Ptier {
-  margin-left: 150px;
+  margin-top: 520px;
+  margin-left: -4000px;
 }
