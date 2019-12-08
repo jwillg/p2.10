@@ -96,3 +96,15 @@ Charlotte will conduct periodic check-ins to verify progress on individual assig
 * The user will take under 2 seconds to find the arrow to move to the next page of the tutorial
 * The user will complete the tutorial in under 30 seconds
 * The user will have 2 or less questions about the gameplay after reading the tutorial
+
+## Rock Paper Scissors Object detection with Tensorflow.js ##
+
+### The Source ###
+The object detection dataset was adapted from Gant Laborde's rock paper scissor's demo located here:
+[Github Link](https://github.com/GantMan/rps_tfjs_demo).
+
+### The Data ###
+The dataset contained pictures of hands throwing rock, paper, and scissors. 143 were classified as rock, 143 were classified as paper, 126 were classified as scissors. The hands were on a blank white background, so the detection works best in front of a light background.
+
+### How to Use ###
+This project uses node.js. In order to run the rock paper scissor's object dectection section of the project, start npm from the rps_demo folder.
