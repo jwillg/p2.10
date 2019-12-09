@@ -52,10 +52,11 @@ The Rock Paper Scissors game will be a simple game that involves using the playe
 <br>
 
 ## Final Product ##
-[Gif of final project here]
-Demo Link:
+![Gif of final project here](p2Final.10.gif)
 
-The final product is fully-functional, in which the player first reads through the tutorial and is then taken to the main screen of the game. The webcame interface given to the player will allow them to play the game by using hand signals. The player is also allotted three powerups at the start of a match. They may only be used once, so the player will have to think strategically about the best times to use each one.
+Demo Link: https://jwillg.github.io/p2.10/rps_demo/public/tutorial.html
+
+The final product functions by having the player first read through the tutorial. Then they are taken to the main screen of the game. The webcame interface given to the player will allow them to play the game by using hand signals. The player is required to hold their hand up to the camera and click on the 'Start Round' button to record their answer and compare the result to the computer player.
 
 <br>
 
